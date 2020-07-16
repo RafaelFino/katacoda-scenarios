@@ -34,7 +34,7 @@
     "uieditorpath": "/root/learnops",
     "showide": true,
     "idePort": 23000,
-    "uilayout": "terminal"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "golang:1.14"
