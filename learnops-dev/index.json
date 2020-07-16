@@ -11,7 +11,8 @@
       },
       {
         "title": "Preparando o nosso ambiente",
-        "text": "step2.md"
+        "text": "step2.md",
+        "code": "foreground.sh"
       },
       {
         "title": "Vamos resolver essa!",
@@ -19,8 +20,7 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "prepare.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
