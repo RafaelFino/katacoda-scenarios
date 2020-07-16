@@ -32,6 +32,10 @@
     }
   },
   "environment": {
+    "uieditorpath": "/root/learnops",
+    "showide": true,
+    "idePort": 23000,
+    "hidefinish": true,
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
