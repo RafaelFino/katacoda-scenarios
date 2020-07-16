@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Começando",
-        "text": "step1.md",
-        "code": "step1-foreground.sh"
+        "text": "step1.md"
       },
       {
         "title": "Entendo o problema",
@@ -32,11 +31,11 @@
     }
   },
   "environment": {
-    "uieditorpath": "/root/learnops",
+    "uieditorpath": "/root",
     "showide": true,
     "idePort": 23000,
     "hidefinish": true,
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "golang:1.14"
