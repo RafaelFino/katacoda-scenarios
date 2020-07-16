@@ -31,8 +31,6 @@
     }
   },
   "environment": {
-    "uieditorpath": "/root/learnops",
-    "showide": true,
     "uilayout": "vscode-terminal-split"
   },
   "backend": {

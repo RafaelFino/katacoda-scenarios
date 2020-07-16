@@ -2,7 +2,7 @@
 Veja a nossa estrutura de diretórios:
 ```
 cd ~/learnops
-exa -t
+exa -T
 ```{{execute}}
 
 ## Vamos começar com o nosso código na pasta cmd/dev-01 e fazer o execício de trocar o pneu do carro?*
@@ -26,7 +26,7 @@ bin/dev-01
 
 Podemos executar o código sem precisar gerar um binário:
 ```
-go run cmd/dev-01/maing.go
+go run cmd/dev-01/main.go
 ```{{execute}}
 
 Agora vamos alterar esse código para resolver o nosso problema! 
