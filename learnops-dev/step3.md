@@ -3,7 +3,7 @@ Veja a nossa estrutura de diretórios:
 ```
 cd ~/learnops
 exa -t
-```{{execute}}}
+```{{execute}}
 
 ## Vamos começar com o nosso código na pasta cmd/dev-01 e fazer o execício de trocar o pneu do carro?*
 
@@ -14,7 +14,7 @@ Entre na pasta do projeto (learnops) e digite
 
 ```
 make dev-01
-```{{execute}}}
+```{{execute}}
 
 Se tudo estiver certo, na pasta learnops/bin foi criado um executável chamado *dev-01*, você pode tentar executa-lo para ver o resultado
 
