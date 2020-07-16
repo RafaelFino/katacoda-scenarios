@@ -18,4 +18,15 @@ make dev-01
 
 Se tudo estiver certo, na pasta learnops/bin foi criado um executável chamado *dev-01*, você pode tentar executa-lo para ver o resultado
 
+```
+bin/dev-01
+```{{execute}}
+
+## Para executar nosso código
+
+Podemos executar o código sem precisar gerar um binário:
+```
+go run cmd/dev-01/maing.go
+```{{execute}}
+
 Agora vamos alterar esse código para resolver o nosso problema! 
