@@ -12,8 +12,4 @@ sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"avit\"/g' .zshrc
 echo 'alias ls="exa -hHBmgaFl --git"' >> ~/.zshrc 
 echo set nu >> ~/.vim_runtime/my_configs.vim 
 echo zsh >> ~/.bashrc  
-git clone https://github.com/RafaelFino/learnops.git
-cd learnops
-make dev-01
-zsh
 echo 'Done!'

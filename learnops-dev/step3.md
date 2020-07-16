@@ -1,34 +1,33 @@
-# Vamos entender nosso ambiente
-Primeiro, vamos ver nosso script de preparação ser executado, tenha paciência! =)
+# Vamos preparar nosso ambiente?
 
-Veja a nossa estrutura de diretórios:
+## Preparando o terminal
+Vamos baixar do nosso repositório um script para deixar nosso terminal mais legal
 ```
-cd ~/learnops
-exa -T
+cd
+curl https://raw.githubusercontent.com/RafaelFino/katacoda-scenarios/master/learnops-dev/scripts/prepare.sh | bash
+zsh
+
 ```{{execute}}
 
-## Vamos começar com o nosso código na pasta cmd/dev-01 e fazer o execício de trocar o pneu do carro?*
-
-Deixei um estrutura simples para podermos começar a colocar a mão na massa
-
-## Para "buildar" nosso código
-Entre na pasta do projeto (learnops) e digite
-
+## Baixando o código
 ```
-make dev-01
+cd
+curl https://raw.githubusercontent.com/RafaelFino/katacoda-scenarios/master/learnops-dev/car-client/main.go > car-client.go
+curl https://raw.githubusercontent.com/RafaelFino/katacoda-scenarios/master/learnops-dev/car-server/main.go > car-server.go
+zsh
+
 ```{{execute}}
 
-Se tudo estiver certo, na pasta learnops/bin foi criado um executável chamado *dev-01*, você pode tentar executa-lo para ver o resultado
+## Para executar nosso server 
 
 ```
-bin/dev-01
+go run car-server.go &
 ```{{execute}}
 
-## Para executar nosso código
+## Para executar nosso client
 
-Podemos executar o código sem precisar gerar um binário:
 ```
-go run cmd/dev-01/main.go
+go run car-server.go
 ```{{execute}}
 
 Agora vamos alterar esse código para resolver o nosso problema! 
