@@ -9,24 +9,24 @@ zsh
 
 ```{{execute}}
 
-## Baixando o código
+## Baixando o código e preparando o ambiente
 ```
 cd
-curl https://raw.githubusercontent.com/RafaelFino/katacoda-scenarios/master/learnops-dev/car-client/main.go > car-client.go
-curl https://raw.githubusercontent.com/RafaelFino/katacoda-scenarios/master/learnops-dev/car-server/main.go > car-server.go
+git clone https://github.com/RafaelFino/katacoda-scenarios.git
+katacoda-scenarios/learnops-dev/scripts/prepare.sh
 
 ```{{execute}}
 
 ## Para executar nosso server 
 
 ```
-go run car-server.go &
+go run katacoda-scenarios/learnops-dev/car/server.go &
 ```{{execute}}
 
 ## Para executar nosso client
 
 ```
-go run car-server.go
+go run katacoda-scenarios/learnops-dev/car/client.go &
 ```{{execute}}
 
 Agora vamos alterar esse código para resolver o nosso problema! 
