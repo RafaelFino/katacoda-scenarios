@@ -31,11 +31,8 @@
     }
   },
   "environment": {
-    "uieditorpath": "/root",
-    "showide": true,
-    "idePort": 23000,
     "hidefinish": true,
-    "uilayout": "editor-terminal"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "golang:1.14"
