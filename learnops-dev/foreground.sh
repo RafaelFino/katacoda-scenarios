@@ -30,6 +30,11 @@ echo zsh >> ~/.bashrc
 
 zsh
 
+#get learn ops git repo and build
+git clone https://github.com/RafaelFino/learnops.git
+cd learnops
+make
+
 echo 'Done!'
 
 exit
