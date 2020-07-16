@@ -1,4 +1,6 @@
 # Vamos entender nosso ambiente
+Primeiro, vamos ver nosso script de preparação ser executado, tenha paciência! =)
+
 Veja a nossa estrutura de diretórios:
 ```
 cd ~/learnops
