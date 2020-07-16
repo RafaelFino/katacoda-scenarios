@@ -31,7 +31,7 @@
     }
   },
   "environment": {
-    "uieditorpath": "/root/example",
+    "uieditorpath": "/root/learnops",
     "showide": true,
     "idePort": 23000,
     "uilayout": "terminal"
