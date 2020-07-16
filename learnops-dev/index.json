@@ -6,6 +6,10 @@
   "details": {
     "steps": [
       {
+        "title": "Começando",
+        "text": "step1.md"
+      },
+      {
         "title": "Entendo o problema",
         "text": "step1.md"
       },
