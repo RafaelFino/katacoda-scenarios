@@ -15,7 +15,7 @@ cd
 git clone https://github.com/RafaelFino/katacoda-scenarios.git
 katacoda-scenarios/learnops-dev/scripts/prepare.sh
 mkdir car
-cp katacoda-scenarios/learnops-dev/* car/*
+cp katacoda-scenarios/learnops-dev/* car
 
 ```{{execute}}
 
