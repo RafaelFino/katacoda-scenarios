@@ -14,7 +14,6 @@ zsh
 cd
 curl https://raw.githubusercontent.com/RafaelFino/katacoda-scenarios/master/learnops-dev/car-client/main.go > car-client.go
 curl https://raw.githubusercontent.com/RafaelFino/katacoda-scenarios/master/learnops-dev/car-server/main.go > car-server.go
-zsh
 
 ```{{execute}}
 
