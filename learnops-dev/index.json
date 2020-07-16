@@ -11,16 +11,16 @@
       },
       {
         "title": "Entendo o problema",
-        "text": "step1.md"
+        "text": "step2.md"
       },
       {
         "title": "Preparando o nosso ambiente",
-        "text": "step2.md",
+        "text": "step3.md",
         "code": "foreground.sh"
       },
       {
         "title": "Vamos resolver essa!",
-        "text": "step3.md"
+        "text": "step4.md"
       }
     ],
     "intro": {
